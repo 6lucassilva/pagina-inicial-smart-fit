@@ -1,0 +1,262 @@
+/* global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+/* padrão de cor */
+:root{
+    --amarelo: #ffb612;
+    --amarelohover: #e89f00;
+}
+
+/* topo do site */
+#alert{
+    background: var(--amarelo);
+    width: 1313px;
+    height: 51px;
+    text-align: center;
+    color: #404040;
+    font-size: 15px;
+    padding: 15px;
+}
+
+#alert a{
+    color: #404040;
+    font-weight: bold;
+}
+
+/* header */
+header{
+    background-color: black;
+    width: 100%;
+    height: 94px;
+}
+
+header li, a{
+    list-style: none;
+    color: #f2f2ef;
+    text-decoration: none;
+}
+
+header nav{
+    width: 946px;
+    height: 64px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 0 0 285px;
+}
+
+header li{
+    margin: 0px 10px;
+}
+
+header li, a:hover{
+    color: var(--amarelohover);
+}
+
+#header{
+    width: 1200px;
+    height: 94px;
+    margin: 0px 74px;
+    padding: 15px 20px;
+    display: flex;
+}
+
+#barra{
+    width: 24px;
+    height: 33px;
+    margin: 12px 0 0 20px;
+    padding: 2px 0 0 0;
+    align-items: center;
+}
+
+#barra:hover{
+    cursor: pointer;
+    color: var(--amarelo);
+}
+
+/* seção imagem */
+.imagem{
+    background-image: url(assets/background.PNG);
+    background-size: cover;
+    min-height: 90vh;
+}
+
+/* seção conteúdo */
+#content{
+    background: #202020;
+    width: 1343px;
+    height: 1285px;
+    padding: 100px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* campo de planos */
+#plans{
+    width: 1280px;
+    height: 1145px;
+    display: flex;
+    justify-content: center;
+    margin: 0px -15px;
+}
+
+/* campo de opções de planos */
+#plansoption{
+    width: 960px;
+    height: 1121px;
+    padding: 12px 15px 0px 15px;
+    margin: 0px 0px 24px 0px;
+    text-align: center;
+}
+
+.textarea{
+    width: 930px;
+    height: 141px;
+    padding: 0px 15px;
+    margin: 0px 0px 24px 0px;
+}
+
+.yourplan {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    margin: 0px 0px 24px 0px;
+    line-height: 37px;
+}
+
+.text {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 12px 0px;
+    line-height: 28px;
+}
+.yellowtext{
+    color: var(--amarelo);
+}
+
+/* opções de plano black e smart */
+.colun1{
+    width: 400px;
+    height: 920px;
+    padding: 0px 15px;
+    margin: 24px 0px 0px 0px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#blackplan{
+    background: white;
+    width: 300px;
+    height: 920px;
+    padding: 0px 0px 30px 0px;
+}
+
+#smartplan{
+    background: white;
+    width: 300px;
+    height: 920px;
+    padding: 0px 0px 30px 0px;
+}
+
+/* coluna com especificações de planos */
+#header1{
+    width: 300px;
+    height: 144px;
+    background: #000000;
+    padding: 16px 0px 45px 0px;
+}
+
+#header2{
+    width: 300px;
+    height: 144px;
+    background: var(--amarelo);
+    padding: 16px 0px 45px 0px;
+}
+
+.plantext{
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.blacktext{
+    font-size: 50px;
+    line-height: 55px;
+    color: var(--amarelo);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.smarttext{
+    font-size: 50px;
+    line-height: 55px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* caixinha dentro da coluna de planos */
+#yellowbox{
+    background: var(--amarelo);
+    width: 240px;
+    height: 84px;
+    padding: 5px;
+    margin: -30px 30px 20px 30px;
+}
+
+#blackbox{
+    background: #000000;
+    width: 240px;
+    height: 84px;
+    padding: 5px;
+    margin: -30px 30px 20px 30px;
+    align-items: center;
+}
+
+.textspace{
+    width: 230px;
+    height: 48px;
+    padding: 3px;
+}
+
+.text1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.text2{
+    color: #000000;
+    text-transform: unset;
+    margin-top: 5px;
+}
+
+.text3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.valuetext1{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.valuetext2{
+    color: var(--amarelo);
+    font-size: 20px;
+    font-weight: 500;
+}
