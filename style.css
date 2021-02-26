@@ -376,3 +376,78 @@ header li, a:hover{
     text-align: center;
     text-transform: uppercase;
 }
+
+/* seção vencer a covid-19 */
+#covidwin{
+    width: 1343px;
+    height: 1033px;
+    padding: 100px 20px 40px 20px;
+}
+
+#covidinformation{
+    width: 1280px;
+    height: 574px;
+    padding: 0px 15px;
+}
+
+.wintext{
+    font-size: 34px;
+    line-height: 37px;
+    text-align: center;
+    margin: 0px 0px 24px 0px;
+}
+
+.helptext{
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0px 0px 24px 0px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.changetext{
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0px 0px 24px 0px;
+}
+
+#carearea{
+    width: 1250px;
+    height: 325px;
+    margin: 0px 15px 60px 15px;
+    display: inline-flex;
+}
+
+.covidcare{
+    background: var(--amarelo);
+    width: 193px;
+    height: 325px;
+    padding: 15px;
+    margin: 0px 15px 0px 0px;
+}
+
+.caretitle{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.icons{
+    margin: 20px 36px;
+}
+
+.caredescription{
+    width: 163px;
+    height: 84px;
+    line-height: 21px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.caredescription a{
+    color: #202020;
+}
