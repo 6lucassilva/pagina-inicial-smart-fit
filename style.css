@@ -59,7 +59,11 @@ header li{
     margin: 0px 10px;
 }
 
-header li, a:hover{
+header li:hover{
+    color: var(--amarelohover);
+}
+
+.linkmenu:hover{
     color: var(--amarelohover);
 }
 
@@ -367,6 +371,10 @@ header li, a:hover{
     float: left;
 }
 
+.clear{
+    clear: both;
+}
+
 .imagetitle{
     font-size: 16px;
     font-weight: 500;
@@ -382,6 +390,8 @@ header li, a:hover{
     width: 1343px;
     height: 1033px;
     padding: 100px 20px 40px 20px;
+    display: block;
+    justify-content: center;
 }
 
 #covidinformation{
@@ -450,4 +460,72 @@ header li, a:hover{
 
 .caredescription a{
     color: #202020;
+}
+
+/* seção de cuidados básicos ao covid-19 */
+#basicscare{
+    width: 1280px;
+    height: 76px;
+    padding: 0px 15px;k;
+}
+
+.basictitle{
+    font-size: 35px;
+    line-height: 52px;
+    margin: 0px 0px 24px 0px;
+    text-align: center;
+}
+
+.guidancecare{
+    width: 320px;
+    height: 124px;
+    padding: 0px 15px;
+    margin: 24px 0px 0px 0px;
+}
+
+.guidancetitle{
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.guidanceline{
+    opacity: 0.3;
+    width: 240px;
+    margin: 12px 0px 12px 25px; 
+}
+
+.guidancedescription{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+#guidancagroup{
+    width: 1280px;
+    margin: 24px 0px 0px 0px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+/* botão saiba mais covid-19 */
+#knowmore{
+    width: 1280px;
+    height: 71px;
+    padding: 24px 15px 0px 15px;
+    margin: 24px 0px 0px 0px;
+    text-align: center;
+}
+
+#knowbutton{
+    background: #d52b1e;
+    color: white;
+    font-size: 18px;
+    width: 230px;
+    height: 47px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
 }
