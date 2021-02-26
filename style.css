@@ -148,7 +148,7 @@ header li, a:hover{
 /* opções de plano black e smart */
 .colun1{
     width: 400px;
-    height: 920px;
+    height: 900px;
     padding: 0px 15px;
     margin: 24px 0px 0px 0px;
     display: inline-flex;
@@ -158,14 +158,14 @@ header li, a:hover{
 #blackplan{
     background: white;
     width: 300px;
-    height: 920px;
+    height: 900px;
     padding: 0px 0px 30px 0px;
 }
 
 #smartplan{
     background: white;
     width: 300px;
-    height: 920px;
+    height: 900px;
     padding: 0px 0px 30px 0px;
 }
 
@@ -259,4 +259,120 @@ header li, a:hover{
     color: var(--amarelo);
     font-size: 20px;
     font-weight: 500;
+}
+
+/* campo de descrição dos planos */
+.description{
+    width: 300px;
+    height: 533px;
+    padding: 0px 20px;
+}
+
+.textdescription{
+    font-size: 20px;
+    color: #212529;
+    margin: 0px 0px 24px 0px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.line{
+    opacity: 0.3;
+    margin: 0px 0px 24px 0px;
+}
+
+.differential{
+    font-size: 14px;
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 12px 0px;
+}
+
+.awards{
+    color: #212529;
+    margin: 0px 0px 24px 0px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* campo com botão aproveite */
+.areabutton{
+    width: 300px;
+    height: 67px;
+}
+
+.button{
+    background: #d52b1e;
+    color: white;
+    width: 208px;
+    height: 67px;
+    padding: 20px 50px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.regulation{
+    color: #808080;
+    font-size: 18px;
+    margin: 24px 0px 0px 0px;
+}
+
+/* seção com salas da academia */
+#academyclass{
+    width: 1343px;
+    height: 1136px;
+    padding: 100px 20px 40px 20px;
+}
+
+#knowarea{
+    width: 1280px;
+    height: 107px;
+    padding: 0px 15px;
+    margin: 0px 0px 24px 0px;
+}
+
+.knowtext{
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+    margin: 0px 0px 24px 0px;
+}
+
+.knowdescription{
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* área de imagens das salas da academia */
+#imagearea{
+    width: 1280px;
+    height: 841px;
+    margin: 0px 15px 24px 15px;
+}
+
+.imagecontent{
+    width: 426px;
+    height: 408px;
+    padding: 12px 15px 0px 15px;
+    margin: 0px 0px 12px 0px;
+    float: left;
+}
+
+.imagetitle{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 15px;
+    margin: -54px 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
 }
