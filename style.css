@@ -38,7 +38,7 @@ header{
     height: 94px;
 }
 
-header li, a{
+header li{
     list-style: none;
     color: #f2f2ef;
     text-decoration: none;
@@ -61,6 +61,12 @@ header li{
 
 header li:hover{
     color: var(--amarelohover);
+}
+
+.linkmenu{
+    list-style: none;
+    color: #f2f2ef;
+    text-decoration: none;
 }
 
 .linkmenu:hover{
@@ -529,3 +535,103 @@ header li:hover{
     outline: none;
     text-transform: uppercase;
 }
+
+#knowbutton a{
+    text-decoration: none;
+    color: white;
+}
+
+#knowbutton:hover{
+    cursor: pointer;
+}
+
+/* Seção turbe os seus resultados */
+#results{
+    width: 1343px;
+    height: 830px;
+    padding: 100px 0px;
+    margin-top: 20px;
+}
+
+#resultstext{
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    padding: 0px 20px;
+    margin: 0px 0px 24px 0px;
+}
+
+#nutriarea{
+    width: 1343px;
+    height: 554px;
+    padding: 0px 20px 40px 20px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.nutricard{
+    width: 384px;
+    height: 467px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.nutrititle{
+    background: var(--amarelo);
+    padding: 5px 20px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.cardtext{
+    width: 382px;
+    height: 150px;
+    padding: 20px;
+}
+
+.teamtext{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px 24px 0px;
+}
+
+.teamdescription{
+    text-align: center;
+    font-size: 15px;
+}
+
+.nutributtonarea{
+    width: 382px;
+    height: 68px;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.nutributton{
+    background: var(--amarelo);
+    color: #000000;
+    width: 198px;
+    height: 48px;
+    padding: 12px 40px;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    text-decoration: none;
+}
+
+.nutributton a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nutributton:hover{
+    cursor: pointer;
+}
+
