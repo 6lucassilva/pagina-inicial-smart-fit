@@ -104,7 +104,7 @@ header li:hover{
 /* seção conteúdo */
 #content{
     background: #202020;
-    width: 1343px;
+    width: 100%;
     height: 1285px;
     padding: 100px 20px 40px 20px;
     display: flex;
@@ -337,7 +337,7 @@ header li:hover{
 
 /* seção com salas da academia */
 #academyclass{
-    width: 1343px;
+    width: 100%;
     height: 1136px;
     padding: 100px 20px 40px 20px;
 }
@@ -393,7 +393,7 @@ header li:hover{
 
 /* seção vencer a covid-19 */
 #covidwin{
-    width: 1343px;
+    width: 100%;
     height: 1033px;
     padding: 100px 20px 40px 20px;
     display: block;
@@ -547,7 +547,7 @@ header li:hover{
 
 /* Seção turbe os seus resultados */
 #results{
-    width: 1343px;
+    width: 100%;
     height: 830px;
     padding: 100px 0px;
     margin-top: 20px;
@@ -638,7 +638,7 @@ header li:hover{
 /* Newsletter */
 .newsletter{
     background: #efefef;
-    width: 1343px;
+    width: 100%;
     height: 269px;
     padding: 80px 20px;
     text-align: center;
@@ -656,7 +656,6 @@ header li:hover{
     padding: 20px 10px;
     font-size: 17px;
     border: none;
-    outline: none;
 }
 
 .newsbutton{
@@ -682,7 +681,7 @@ header li:hover{
 
 /* Rodapé do site */
 #rodape{
-    width: 1343px;
+    width: 100%;
     height: 683px;
     background: #212529;
     text-align: center;
@@ -745,7 +744,7 @@ header li:hover{
 
 /* Informações adicionais no Footer */
 #footerlast{
-    width: 1343px;
+    width: 100%;
     height: 733px;
     background: #212529;
 }
